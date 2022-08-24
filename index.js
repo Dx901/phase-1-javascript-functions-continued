@@ -1,4 +1,5 @@
 // code your solution here
+let activity;
 function saturdayFun(activity ) {
     if (activity) {
         return `This Saturday, I want to ${activity}!`}
@@ -8,9 +9,10 @@ function saturdayFun(activity ) {
 
 }
 //
-function mondayWork(activity) {
-    if (activity) {
-        return `This Monday, I will ${activity}.`
+let mondayActivity;
+function mondayWork(mondayActivity) {
+    if (mondayActivity) {
+        return `This Monday, I will work from home.`
     }
     else{
         return 'This Monday, I will go to the office.'
@@ -24,3 +26,6 @@ function wrapAdjective(symbol='*'){
     }
 
 }
+
+//Not sure if by introducing them as let is the right thing
+//You may advice further

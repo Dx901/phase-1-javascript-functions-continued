@@ -1,12 +1,1 @@
-const array = (function(thingToadd) {
-    const base = 3;
-    return [
-        function() {
-            return base + thingToadd
-        },
-        function() {
-            return base 
-        }
-    ]
-})(2)
-//console.log(array)
+const ask = (question, yes, no) => confirm(question)? yes() : no()
